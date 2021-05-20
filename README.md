@@ -42,5 +42,3 @@ open your browser to check / and /ping endpoints
 localhost:3000/
 
 localhost:3000/ping 
-
-should be working
