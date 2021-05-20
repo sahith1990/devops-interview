@@ -1,3 +1,7 @@
+## Prerequisites
+docker needs to be installed and running locally for this test to work
+
+
 ## Instructions to Build and Run the container locally
 
 ### Build Docker container
@@ -29,3 +33,14 @@ e.g. `make build IMAGE_NAME=nodejs-test` , `make run CONTAINER_NAME=<container_n
 | IMAGE_TAG         |   latest              |
 | CONTAINER_NAME    |   nodejsContainer     |
 | PORT              |   3000                |
+
+
+### Check if the application is working locally
+
+open your browser to check / and /ping endpoints
+
+localhost:3000/
+
+localhost:3000/ping 
+
+should be working
