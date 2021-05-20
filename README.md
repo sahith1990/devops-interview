@@ -17,11 +17,13 @@ $make
 build     Builds the docker container
 run       Run the docker container locally
 ```
-Makefile variables and default values, pass these in when calling `make`, e.g. `make build IMAGE_NAME=nodejs-test`
+Makefile variables and default values, pass these in when calling `make`, e.g. `make build IMAGE_NAME=nodejs-test` 
+
+`make run CONTAINER_NAME=container 
 
 | Makefile Variable | Default               |
 | ----------------- | ----------------------|
 | IMAGE_NAME        |   nodejs-test         |
 | IMAGE_TAG         |   latest              |
 | CONTAINER_NAME    |   nodejsContainer     |
-
+| PORT              |   3000                |
