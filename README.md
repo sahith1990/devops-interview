@@ -7,8 +7,10 @@ docker build -t <image_name> .
 docker container run -d --name <container_name> -p <port_number>:3000 <image_name>:<image_tag>
 
 
-### Makefile
 
+
+### Makefile Instructions to Build and Run the container locally
+ 
 A standard Makefile is provided to build and run the container locally.
 
 ```txt
