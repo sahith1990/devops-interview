@@ -19,8 +19,8 @@ run       Run the docker container locally
 
 Make file variables and default values, pass these in when calling `make`, e.g. `make build IMAGE_NAME=nodejs-test`
 
-| Makefile Variable | Default                |
-| ----------------- | ---------------------- |
-| IMAGE_NAME        |   nodejs-test          |
-| IMAGE_TAG         |   latest               |
-| CONTAINER_NAME    |   nodejsWebApp         |
+| Makefile Variable | Default                  |
+| ----------------- | :---------------------- :|
+| IMAGE_NAME        |   nodejs-test            |
+| IMAGE_TAG         |   latest                 |
+| CONTAINER_NAME    |   nodejsWebApp           |
