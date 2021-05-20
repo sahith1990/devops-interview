@@ -1,10 +1,10 @@
 ## Instructions to Build and Run the container locally
 
 ### Build Docker container
-docker build -t <image_name_tag> .
+docker build -t <image_name> .
 
 ### Run Docker container
-docker container run -d --name <container_name> -p 3000:3000 <image_name_tag>
+docker container run -d --name <container_name> -p 3000:3000 <image_name>:<image_tag>
 
 
 ### Makefile
@@ -23,5 +23,5 @@ Makefile variables and default values, pass these in when calling `make`, e.g. `
 | ----------------- | ----------------------|
 | IMAGE_NAME        |   nodejs-test         |
 | IMAGE_TAG         |   latest              |
-| CONTAINER_NAME    |   nodejsWebApp        |
+| CONTAINER_NAME    |   nodejsContainer     |
 
