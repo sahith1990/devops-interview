@@ -4,7 +4,7 @@
 docker build -t <image_name> .
 
 ### Run Docker container
-docker container run -d --name <container_name> -p <port>:3000 <image_name>:<image_tag>
+docker container run -d --name <container_name> -p <port_number>:3000 <image_name>:<image_tag>
 
 
 ### Makefile
